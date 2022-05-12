@@ -1,0 +1,23 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	background-image: url( "/images/pattern.webp" );
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		color: $fontColor;
+	}
+	li {
+		list-style-type: none;
+	}
+	
+	a{
+		text-decoration: none;
+	}
+	header {
+		font-family: 'Koulen', cursive;
+	}
+}
