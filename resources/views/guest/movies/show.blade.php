@@ -1,12 +1,21 @@
 @extends('layouts.app')
 
-@section('title', 'Movie - Info')
+@section('title')
+{{$movie->title}} detail
+@endsection
 
 @section('content')
 <section id="movie-detail" class="container-fluid px-5">
-	<h5>{{$movie->title}} Info</h5>
-	<a href="{{ route("movies") }}">Back to Movies</a>
-	<div class="row justify-content-center">
+	<a
+	href="{{ route("movies") }}"
+	class="btn btn-outline-info"
+	tabindex="-1"
+	role="button"
+	aria-disabled="true"
+	>
+		Back to Movies
+	</a>
+	<div class="row justify-content-center pt-5">
 		<div class="col-2">
 			<div class="card">
 				<div class="card-body">
