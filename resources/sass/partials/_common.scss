@@ -1,3 +1,13 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Koulen', cursive;
+}
+
+
 body {
 	font-family: 'Nunito', sans-serif;
 	background-image: url( "/images/pattern.webp" );
@@ -15,9 +25,7 @@ body {
 	}
 	
 	a{
+		color: rgb(255, 255, 176);
 		text-decoration: none;
-	}
-	header {
-		font-family: 'Koulen', cursive;
 	}
 }

@@ -12174,6 +12174,21 @@ fieldset:disabled .btn {
   }
 }
 
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  font-family: "Koulen", cursive;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   background-image: url("/images/pattern.webp");
@@ -12200,25 +12215,17 @@ body li {
 }
 
 body a {
+  color: #ececec;
   text-decoration: none;
 }
 
-body header {
-  font-family: "Koulen", cursive;
-}
-
-section#movies div.card {
+div.card {
   border-radius: 20px;
   box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.8), -5px -12px 9px -18px #ffab06;
   background-color: rgba(0, 0, 0, 0.74);
 }
 
-section#movies div.card h4,
-section#movies div.card .h4 {
-  font-family: "Koulen", cursive;
-}
-
-section#movies div.card p {
-  font-size: 0.75rem;
+div.card p {
+  font-size: 0.85rem;
 }
 

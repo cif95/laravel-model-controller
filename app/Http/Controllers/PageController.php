@@ -13,4 +13,11 @@ class PageController extends Controller
 
         return view ('guest.movies.index', [ 'movies' => $movies ]);
     }
+
+    public function show($id) {
+
+        $movie = Movie::findOrFail($id);
+
+        return view('guest.movies.show', ['movie' => $movie]);
+    }
 }
